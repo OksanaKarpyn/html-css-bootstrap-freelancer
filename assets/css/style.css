@@ -54,7 +54,8 @@ h1{
 /* main */
 .main-title h2,
 .about-title h2,
-.contact-title h2{
+.contact-title h2,
+.social-title h3{
    text-transform: uppercase;
 }
 
@@ -101,22 +102,30 @@ h1{
 .main-social{
    background-color:#3A546D ;
 }
-.social-icon{
-  position: relative;
-}
-.social-icon i {
 
+.icon{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border:2px solid #fff;
+  /* border-radius: 50%; */
+
+}
+.icon i {
+   position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   margin: 10px;
-   background-color: coral;
-   padding: 3%;
-   border-radius: 50%;
-   /* text-align: center;
-   aspect-ratio: 1; */
+
+  
 }
 .text-color{
    color: #1ABC9C;
    font-weight: 700;
+}
+
+
+/* footer */
+.footer{
+   background-color: #2C3E50;
 }
