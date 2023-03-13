@@ -11,6 +11,9 @@
 }
 h1{
    font-size: 2rem;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: 800;
 }
 .card-icon{
    display: inline-block;
@@ -45,15 +48,20 @@ h1{
 }
 .cart-title , .card-text {
    text-transform: uppercase;
-   
+   letter-spacing: 3px;
+   font-weight: bold;
 }
 /* main */
+.main-title h2,
+.about-title h2{
+   text-transform: uppercase;
+}
 .main-card-icon:before {
    content: '';
    position: absolute;
    width: 80px;
    height: 3px;
-   background-color: #000;
+   background-color: #2C3E50;
    vertical-align: middle;
    left: -240%;
    bottom: 45%;
@@ -64,15 +72,21 @@ h1{
    position: relative;
    font-size: 2rem;
    vertical-align: middle;
+   color: #2C3E50;
 }
 .main-card-icon:after{
    content: '';
    position: absolute;
    width: 80px;
    height: 3px;
-   background-color:#000;
+   background-color:#2C3E50;
    vertical-align: middle;
    right: -240%;
    bottom: 45%;
 
 }
+/* about */
+.main-about{
+  background-color: #1ABC9C; 
+}
+/* contact */
