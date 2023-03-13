@@ -1,0 +1,78 @@
+ .navbar{
+   background-color: #2C3E50;
+}
+/* header */
+.header{
+   background-color: #1ABC9C;
+}
+.card{
+   background-color: #1ABC9C;
+
+}
+h1{
+   font-size: 2rem;
+}
+.card-icon{
+   display: inline-block;
+   position: relative;
+   color: white;
+   font-size: 2rem;
+   vertical-align: middle;
+}
+
+.card-icon:before{
+   content: '';
+   position: absolute;
+   width: 80px;
+   height: 3px;
+   background-color: #fff;
+   vertical-align: middle;
+   left: -240%;
+   bottom: 45%;
+
+}
+
+.card-icon:after{
+   content: '';
+   position: absolute;
+   width: 80px;
+   height: 3px;
+   background-color: #fff;
+   vertical-align: middle;
+   right: -240%;
+   bottom: 45%;
+
+}
+.cart-title , .card-text {
+   text-transform: uppercase;
+   
+}
+/* main */
+.main-card-icon:before {
+   content: '';
+   position: absolute;
+   width: 80px;
+   height: 3px;
+   background-color: #000;
+   vertical-align: middle;
+   left: -240%;
+   bottom: 45%;
+
+}
+.main-card-icon{
+   display: inline-block;
+   position: relative;
+   font-size: 2rem;
+   vertical-align: middle;
+}
+.main-card-icon:after{
+   content: '';
+   position: absolute;
+   width: 80px;
+   height: 3px;
+   background-color:#000;
+   vertical-align: middle;
+   right: -240%;
+   bottom: 45%;
+
+}
